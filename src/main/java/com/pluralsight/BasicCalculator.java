@@ -17,5 +17,9 @@ public class BasicCalculator {
                 "(M)ultiply\n" +
                 "(D)ivide\n" +
                 "Please select an option: ");
+        char option = scanner.next().charAt(0);
+
+        float total = num1 * num2;
+        System.out.println(num1 + " * " + num2 + " = " + total);
+        }
     }
-}
