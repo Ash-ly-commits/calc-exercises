@@ -21,5 +21,6 @@ public class BasicCalculator {
 
         float total = num1 * num2;
         System.out.println(num1 + " * " + num2 + " = " + total);
+        System.out.println("Hope it's enough to live by! :D");
         }
     }
